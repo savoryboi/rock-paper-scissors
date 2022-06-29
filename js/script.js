@@ -42,12 +42,13 @@ function letsPlay(){
 
 
     if(thisRoundPlayerScore > thisRoundCompScore){
-        alert(`holy shit you won! the score is ${playerScore} to ${compScore}`);
+        alert(`holy sh*t you won! the score is ${playerScore} to ${compScore}`);
     } else if(thisRoundPlayerScore < thisRoundCompScore){
-        alert(`you fucking lost... the score is ${playerScore} to ${compScore}`);
+        alert(`LOL you lost... the score is ${playerScore} to ${compScore}`);
     } else if (thisRoundCompScore === thisRoundPlayerScore) {
         alert(`you tied! the score is ${playerScore} to ${compScore}`);
     }
+    //recursion
     return letsPlay();
 }
 
