@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: #186868;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    text-align: center;
+
+}
+
+main #reset {
+    justify-items: center;
+    margin: 2% auto;
+}
+
+button#reset {
+    padding: 10px 2%;
+    font-size: 1em;
+    background-color: #07AAAA;
+    border: 3px solid #00FFFF;
+    border-radius: 30px;
+    width: fit-content;
+}
